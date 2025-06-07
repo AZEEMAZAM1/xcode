@@ -13,6 +13,8 @@
 		CE79D2B42DF1DE13002E769A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79D2B32DF1DE13002E769A /* ContentView.swift */; };
 		CE79D2B62DF1DE15002E769A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE79D2B52DF1DE15002E769A /* Assets.xcassets */; };
 		CE79D2BA2DF1DE15002E769A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE79D2B92DF1DE15002E769A /* Preview Assets.xcassets */; };
+		CE79D2C12DF4496B002E769A /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79D2C02DF4496B002E769A /* TaskListView.swift */; };
+		CE79D2C32DF44A32002E769A /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79D2C22DF44A32002E769A /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE79D2B52DF1DE15002E769A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE79D2B72DF1DE15002E769A /* hello_world.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hello_world.entitlements; sourceTree = "<group>"; };
 		CE79D2B92DF1DE15002E769A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE79D2C02DF4496B002E769A /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		CE79D2C22DF44A32002E769A /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CE79D2B72DF1DE15002E769A /* hello_world.entitlements */,
 				CE79D2B02DF1DE13002E769A /* hello_world.xcdatamodeld */,
 				CE79D2B82DF1DE15002E769A /* Preview Content */,
+				CE79D2C02DF4496B002E769A /* TaskListView.swift */,
+				CE79D2C22DF44A32002E769A /* SecondView.swift */,
 			);
 			path = "hello world";
 			sourceTree = "<group>";
@@ -145,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE79D2C32DF44A32002E769A /* SecondView.swift in Sources */,
 				CE79D2AD2DF1DE13002E769A /* hello_worldApp.swift in Sources */,
 				CE79D2AF2DF1DE13002E769A /* Persistence.swift in Sources */,
+				CE79D2C12DF4496B002E769A /* TaskListView.swift in Sources */,
 				CE79D2B42DF1DE13002E769A /* ContentView.swift in Sources */,
 				CE79D2B22DF1DE13002E769A /* hello_world.xcdatamodeld in Sources */,
 			);

@@ -2,14 +2,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World i am Muhamma d Azeem!")
-            .font(.largeTitle)
-            .padding()
+        NavigationStack {
+            VStack(spacing: 20) {
+                Text("Welcome!")
+                    .font(.largeTitle)
+
+                NavigationLink("Go to Second Screen", destination: SecondView())
+            }
+            .navigationTitle("Home")
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
